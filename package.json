@@ -1,0 +1,21 @@
+{
+  "name": "component-jade2",
+  "repository": "git://github.com/thinkerous/component-jade2.git",
+  "version": "0.0.1",
+  "description": "A plugin to transpile Jade files for component/component builder2.",
+  "keywords": [
+    "component",
+    "jade",
+    "builder",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "debug": "~0.7.4"
+  },
+  "devDependencies": {
+    "jade": "1.x.x",
+    "component-builder": "1.x.x",
+    "mocha": "~1.17.1"
+  }
+}
