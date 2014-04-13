@@ -15,6 +15,10 @@ module.exports = function (options) {
 
       file.string = JSON.stringify(jade.render(string, options));
       file.define = true;
+
+      // HTML output, for next middleware 
+      file.extension = "html";
+      
       done();
     })
   }
