@@ -11,9 +11,9 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "debug": "~0.7.4"
   },
   "devDependencies": {
+    "debug": "~0.7.4",
     "jade": "1.x.x",
     "component-builder": "1.x.x",
     "mocha": "~1.17.1"
