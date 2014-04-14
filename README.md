@@ -53,8 +53,15 @@
       .use('scripts', build.plugins.js())
       // TODO: copy over html files too
       .use('templates', componentJade({
+        // Jade Options
         compileDebug: false,
-        pretty: false
+        pretty: false,
+
+        // Optional urlPrefix. Enables `staticUrl(filepath)` in templates.
+        // Relative to jade file.
+        // Ex. img(src=staticUrl("../images/picture.png")
+        urlPrefix: "//cdn.domain.com/"
+
         // + data to be rendered
       }))
       .end(function (err, string) {
